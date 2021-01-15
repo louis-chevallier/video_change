@@ -1,0 +1,648 @@
+    1  which python
+    2  conda install selenium
+    3  python
+    4  mkdir sele
+    5  cd ..
+    6  mkdir tools
+    7  cp Downloads/chromedriver tools/
+    8  cd sele/
+    9  which python
+   10  python sele.py 
+   11  ls ../../Downloads/
+   12  l ../../Downloads/
+   13  ll ../../Downloads/
+   14  l ../../Downloads/
+   15  ll ../../Downloads/
+   16  cp ../../Downloads/geckodriver ../../tools/
+   17  python sele.py 
+   18  conda search useragent
+   19  pip  search useragent
+   20  pip  search fake_useragent
+   21  conda search useragent
+   22  python sele.py 
+   23  which pip
+   24  pip  search fake_useragent
+   25  pip list
+   26  pip list | grep agent
+   27  pip list | grep fake
+   28  pip install fake_useragent
+   29  h
+   30  history
+   31  python sele.py 
+   32  pip install random_useragent
+   33  python sele.py 
+   34  pip install random_user_agent
+   35  pip uninstall random_useragent
+   36  pip uninstall fake_useragent
+   37  python sele.py 
+   38  jobs
+   39  ps 
+   40  kill -9 65554 65662 65671 65762 65845 65952 65961 66052 67967 68061 68082 68161 68359 68359 
+   41  ps 
+   42  kill -9 68714 68802 68912 68823 69186 
+   43  ps 
+   44  kill -9 69466 69564 69585 69660
+   45  ps 
+   46  python sele.py 
+   47  ps 
+   48  python sele.py 
+   49  ls
+   50  pwd
+   51  df -h
+   52  df -h .
+   53  sudo ethtool eth0  | egrep "^[[:blank:]]*Wake-on: (g|d)"
+   54  sudo yum install ethtool
+   55  sudo apt_get  install yum
+   56  sudo apt  install yum
+   57  sudo apt  install ethtool
+   58  sudo ethtool eth0  | egrep "^[[:blank:]]*Wake-on: (g|d)"
+   59  ifconfig
+   60  sudo apt  install ifconfig
+   61  ip link show
+   62  ip
+   63  ip address show
+   64  sudo ethtool eno1  | egrep "^[[:blank:]]*Wake-on: (g|d)"
+   65  sudo apt  install selenium
+   66  sudo apt  install chromium
+   67  cd ../Downloads/
+   68  ls
+   69  file chromedriver
+   70  cd ..
+   71  ls
+   72  pwd
+   73  mkdir dev
+   74  cd dev/
+   75  wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+   76  sudo apt install cifs-utils
+   77  echo $USER
+   78  sudo mkdir /media/freebox
+   79  sudo touch /home/louis/.subcredentials
+   80  vi /home/louis/.subcredentials
+   81  ls
+   82  bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh 
+   83  which python
+   84  python
+   85  emacs 
+   86  sudo snap install emacs 
+   87  sudo snap install emacs --classic
+   88  gcc
+   89  sudo snap install gcc
+   90  sudo apt  install gcc
+   91  emacs ~/.bashrc
+   92  bg
+   93  bash
+   94  sudo apt install gimp
+   95  gimp&
+   96  montage
+   97  sudo apt install imagemagick-6.q16 
+   98  ls ../Pictures/
+   99  montage  ../Pictures/* montage.png
+  100  display montage.png 
+  101  montage  ../Pictures/* -geometry 1200x1000+1+1 montage.png
+  102  display montage.png 
+  103  gimp montage.png 
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd dev/
+  108  ls
+  109  cd sele/
+  110  ls
+  111  python sele.py 
+  112  emacs sele.py
+  113  bg
+  114  sudo apt install make
+  115  jobs
+  116  fg
+  117  bg
+  118  git clone https://github.com/timgrossmann/InstaPy.git
+  119  sudo apt install git
+  120  git clone https://github.com/timgrossmann/InstaPy.git
+  121  mv sele.py InstaPy/instapy/sele.py
+  122  mv makefile InstaPy/instapy/
+  123  emacs &
+  124  which pip
+  125  pip install webdriverdownloader
+  126  cd InstaPy/instapy/
+  127  make
+  128  pip install regex
+  129  pip install emoji
+  130  pip install plyer
+  131  mkdir workspace
+  132  make
+  133  suso apt update
+  134  sudo apt update
+  135  sudo apt install openssh-server
+  136  ip
+  137  ifconfig
+  138  sudo apt install net-tools
+  139  ifconfig
+  140  monitor-sensor 
+  141  sudo systemctl status ssh
+  142  sudo ufw allow ssh
+  143  ip a
+  144  firefox --help
+  145  which firefox
+  146  firefox --ssb https://www.leboncoin.fr/index.htm
+  147  firefox https://www.leboncoin.fr/index.htm
+  148  firefox --remote-debugger
+  149  firefox --help
+  150  sudo systemctl status ssh
+  151  ip a
+  152  sudo shutdown now
+  153  writer
+  154  emacs&
+  155  fg
+  156  gimp
+  157  firefox&
+  158  sudo apt search x2go
+  159  sudo apt-get update
+  160  sudo apt-get install xubuntu-desktop
+  161  sudo apt-get install x2goserver x2goserver-xsession
+  162  df -h .
+  163  sudo apt-get install cifs-utils
+  164  cd /media
+  165  ls
+  166  cd freebox/
+  167  ms
+  168  ls
+  169  vi ~/.smbcredentials
+  170  sudo chown -R $USER:root /home/$USER/.smbcredentials
+  171  sudo chmod -R 775 /home/$USER/.smbcredentials
+  172  sudo vi /etc/fstab
+  173  mkdir /media/freebox/Maxtor
+  174  sudo mkdir /media/freebox/Maxtor
+  175  sudo mkdir /media/freebox/Disque_Dur
+  176  sudo vi /etc/fstab
+  177  sudo mount -a
+  178  vi ~/.smbcredentials 
+  179  ll /media
+  180  ll /media/freebox/
+  181  sudo vi /etc/fstab
+  182  history
+  183  sudo mkdir /media/freeboxDD
+  184  sudo mount -a
+  185  mount
+  186  sudo mount -a
+  187  mount
+  188  sudo mount -a
+  189  sudo vi /etc/fstab
+  190  sudo mkdir /media/freebox/DisqueDur
+  191  ls sudo mkdir /media/freebox/
+  192  sudo ll /media/freebox/
+  193  sudo ls /media/freebox/
+  194  sudo rmdir  /media/freebox/Disque_Dur/
+  195  sudo mount -a
+  196  ls /media/freebox/Maxtor/
+  197  ip a
+  198  sudo apt search image
+  199  sudo apt search xnview
+  200  sudo apt search magick
+  201  sudo apt search magick | grep image
+  202  sudo apt install imagemagick
+  203  pushd ~/Downloads/
+  204  ms
+  205  ls
+  206  file 20200805_211651.heic 
+  207  display *.heic
+  208  file 20200805_211651.heic 
+  209  convert 20200805_211651.heic  20200805_211651.png
+  210  sudo apt search feh
+  211  sudo apt install feh
+  212  ls
+  213  feh  20200805_211714.heic 
+  214  sudo apt search gwen
+  215  sudo apt search gwenview
+  216  sudo apt install  gwenview
+  217  df -h .
+  218  gwenview *.heic
+  219  gwenview *.png
+  220  evince
+  221  sudo apt install  hplip
+  222  hp-setup 
+  223  hp-setup --qt3
+  224  hp-setup 
+  225  hp-setup -i
+  226  hp-setup -ia
+  227  hp-setup --version
+  228  hp-probe
+  229  ip a
+  230  hp-probe
+  231  hp-setup -ia
+  232  hp-setup -i
+  233  sudo apt install linux-igd
+  234  sudo apt search upnp
+  235  djmount
+  236  sudo apt search djmount
+  237  sudo apt install djmount
+  238  fuse
+  239  totem
+  240  upplay
+  241  rhythmbox
+  242  arp -a
+  243  nmap -sP 192.168.0.*
+  244  sudo apt  install nmap 
+  245  nmap -sP 192.168.0.*
+  246  nmap -sT 192.168.0.*
+  247  sudo nmap -sP 192.168.0.*
+  248  top
+  249  w
+  250  pwd
+  251  ls
+  252  pm-suspend
+  253  sudo apt install pm-utils 
+  254  pm-suspend
+  255  sudo pm-suspend
+  256  sudo adduser christine
+  257  monitor
+  258  sudo pm-suspend
+  259  sudo shutdown now
+  260  chromium&
+  261  cd dev
+  262  cd ../dev
+  263  ls
+  264  cd sele/
+  265  ls
+  266  cd InstaPy/
+  267  make
+  268  ls
+  269  cd instapy/
+  270  make
+  271  ls
+  272  xterm &
+  273  bash
+  274  rxvt
+  275  xterm &
+  276  chromium
+  277  firefox 
+  278  sudo shutdown now
+  279  fireforx&
+  280  firefoxx&
+  281  firefox&
+  282  pwd
+  283  ls
+  284  cd dev
+  285  ls
+  286  mkdir audio
+  287  emacs &
+  288  fg
+  289  emacs --help
+  290  emacs --h
+  291  emacs --nw
+  292  vi audio.py
+  293  which python
+  294  python audio.py 
+  295  vi audio.py
+  296  python audio.py 
+  297  vi audio.py
+  298  python audio.py 
+  299  vi audio.py
+  300  python audio.py 
+  301  pip install pyaudio
+  302  conda install pyaudio
+  303  python audio.py 
+  304  conda install multiprocessing
+  305  python audio.py 
+  306  vi audio.py
+  307  python audio.py 
+  308  vi audio.py
+  309  python audio.py 
+  310  vi audio.py
+  311  python audio.py 
+  312  vi audio.py
+  313  python audio.py 
+  314  vi audio.py
+  315  python audio.py 
+  316  vi audio.py
+  317  python audio.py 
+  318  vi audio.py
+  319  python audio.py 
+  320  vi audio.py
+  321  python audio.py 
+  322  vi audio.py
+  323  python audio.py 
+  324  vi audio.py
+  325  python audio.py 
+  326  vi audio.py
+  327  python audio.py 
+  328  vi audio.py
+  329  emacs -nw
+  330  python audio.py 
+  331  emacs -nw
+  332  emacs -nw audio.py
+  333  python audio.py 
+  334  emacs -nw audio.py
+  335  python audio.py 
+  336  emacs -nw audio.py
+  337  python audio.py 
+  338  emacs -nw audio.py
+  339  python audio.py 
+  340  emacs -nw audio.py
+  341  python audio.py 
+  342  emacs -nw audio.py
+  343  which python
+  344  firefox&
+  345  which python
+  346  cd dev/
+  347  ls
+  348  cd sele/
+  349  ls
+  350  pwd
+  351  cd InstaPy/
+  352  l
+  353  ls
+  354  cd instapy/
+  355  ls
+  356  make
+  357  emacs &
+  358  make
+  359  cd dev
+  360  ls
+  361  cd sele/InstaPy/instapy/
+  362  make
+  363  emacs -nw &
+  364  fg
+  365  chromium
+  366  sudo shutdown now
+  367  cd dev
+  368  cd sele/InstaPy/instapy/
+  369  make
+  370  emacs &
+  371  make
+  372  firefox&
+  373  dolphin&
+  374  sudo apt install dolphin
+  375  dolphin&
+  376  chromium&
+  377  more /proc/cpuinfo 
+  378  more /proc/cpuinfo  | grep process
+  379  more /proc/meminfo 
+  380  top
+  381  pwd
+  382  ls
+  383  which python
+  384  pwd
+  385  ls
+  386  cd dev
+  387  svn co https://svn.openstreetmap.org/applications/routing/pyroute/
+  388  sudo apt install subversion
+  389  svn co https://svn.openstreetmap.org/applications/routing/pyroute/
+  390  cd pyroute/
+  391  python gui.py 
+  392  python2.7 gui.py 
+  393  conda install python2.7
+  394  which python
+  395  python --version
+  396  which python
+  397  ls /home/louis/anaconda3/bin/
+  398  conda create -n py27 python=2.7 anaconda
+  399  python --version
+  400  python gui.py 
+  401  pip install pygtk
+  402  pip install python-pygtk2
+  403  pip search gtk
+  404  pip install pyGTK
+  405  conda env
+  406  conda list env
+  407  conda list
+  408  cd dev
+  409  ls
+  410  rm -r pyroute/
+  411  rm -rf pyroute/
+  412  firefox&
+  413  sudo shutdown now
+  414  chromium&
+  415  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  416  calibre
+  417  sudo shutdown now
+  418  firefox &
+  419  more /proc/cpuinfo 
+  420  more /proc/cpuinfo  | grep Intel
+  421  more /proc/meminfo
+  422  sudo yum  install hardinfo
+  423  sudo apt  install hardinfo
+  424  hardinfo 
+  425  sudo shutdown now
+  426  konsole&
+  427  Konsole&
+  428  history
+  429  gnome-terminal
+  430  cd /media/MPC/
+  431  ls
+  432  ll
+  433  mount -a
+  434  sudo mount -a
+  435  ls
+  436  df -h
+  437  sudo vi /etc/fstab
+  438  lsblk
+  439  lshw
+  440  lusb
+  441  lsusb
+  442  lsusb -l
+  443  lsusb -v
+  444  lsusb -l
+  445  lsusb -v
+  446  lsusb 
+  447  emacs &
+  448  sudo fdisk 
+  449  sudo fdisk -l
+  450  sudo mount -t ext4 /dev/sdb1 /media/MPC
+  451  ls /dev
+  452  sudo mount -t ext4 /dev/sdb /media/MPC
+  453  ls /media/MPC
+  454  ls /media/MPC/data/ftp/FTP/SmartCam_HD_Outdoor_C4D6553E360E/
+  455  ls /media/MPC/data/ftp/FTP/SmartCam_HD_Outdoor_C4D6553E360E/snap
+  456  cd  /media/MPC/data/ftp/FTP/SmartCam_HD_Outdoor_C4D6553E360E/snap
+  457  cd ..
+  458  mv snap snap2
+  459  watch
+  460  watch ls
+  461  ls snap
+  462  dolphin
+  463  blkid
+  464  mount
+  465  mount | grep dev
+  466  mount | grep /dev
+  467  ll /dev/disk/by-uuid
+  468  lsusb 
+  469  lsblk
+  470  lshw
+  471  lsblk
+  472  fdisk -l
+  473  sudo fdisk -l
+  474  h
+  475  lsusb
+  476  man lsusb
+  477  lsusb
+  478  h
+  479  lssb
+  480  lsblk
+  481  fdisk -l
+  482  sudo fdisk -l
+  483  ls /media
+  484  ls /media/usbstick/
+  485  vi /etc/fstab
+  486  ll /dev/disk/by-uuid
+  487  vi /etc/fstab
+  488  sudo mount -t ext4 /dev/sdb /media/usbdisk
+  489  sudo mount -t ext4 /dev/sdb /media/usbstick/
+  490  ls /media/usbstick/
+  491  ls /media/usbstick/data/
+  492  unmount /media/usbstick/
+  493  umount /media/usbstick/
+  494  ls /media/usbstick/data/
+  495  sudo umount /media/usbstick/
+  496  ls /media/usbstick/data/
+  497  sudo mount -t ext4 /dev/sdc /media/usbstick/
+  498  sudo mount -t fat /dev/sdc /media/usbstick/
+  499  man mount
+  500  sudo mount -t vfat /dev/sdc /media/usbstick/
+  501  sudo mount -t nfs /dev/sdc /media/usbstick/
+  502  sudo mount -t cifs /dev/sdc /media/usbstick/
+  503  sudo mount -t ext3 /dev/sdc /media/usbstick/
+  504  sudo mount -t ext2 /dev/sdc /media/usbstick/
+  505  dolphin
+  506  sudo mount -t ext2 /dev/sdc /media/usbstick/
+  507  history
+  508  vi /etc/fstab
+  509  lsusb
+  510  lsblk
+  511  sudo fdisk -l
+  512  mount
+  513  sudo mkfs.ext4 /dev/sdc1 
+  514  sudo mount -t vfat /dev/sdc /media/usbstick/
+  515  sudo mkfs.vfat /dev/sdc1 
+  516  blkid
+  517  vi /etc/fstab
+  518  ls ls -l /dev/disk/by-uuid
+  519  vi /etc/fstab
+  520  sudo vi /etc/fstab
+  521  ls media
+  522  ls /media
+  523  ls /media/usbstick/
+  524  sudo mount -a
+  525  sudo mkfs.ext4 /dev/sdc1 
+  526  sudo vi /etc/fstab
+  527  sudo mount -a
+  528  ls ls -l /dev/disk/by-uuid
+  529  sudo vi /etc/fstab
+  530  sudo mount -a
+  531  sudo mkfs.ext4 --help
+  532  cat > texte-a-david.txt
+  533  more texte-a-david.txt 
+  534  lpr texte-a-david.txt 
+  535  man print
+  536  dolphin
+  537  firefox&
+  538  pwd
+  539  ls
+  540  cd snap
+  541  ll
+  542  ls ~
+  543  ls ~/.*
+  544  ls ~/.functions.sh
+  545  vi ~/.bashrc
+  546  spy
+  547  vi ~/.functions.sh
+  548  vi ~/.bashrc.sh
+  549  vi ~/.bashrc
+  550  source ~/.bashrc
+  551  spy
+  552  numberize Schedule_2020121*
+  553  ls
+  554  ffmpeg -i f_%04d.png video.mp4
+  555  ffmpeg -i f_%04d.jpg video.mp4
+  556  ffplay video.mp4 
+  557  ls
+  558  rm f_*.jpg
+  559  numberize Schedule_2020121*
+  560  getconf ARG_MAX
+  561  ls | wc -l
+  562  ls
+  563  ls -t
+  564  ls -lt
+  565  date
+  566  ls -lt | more
+  567  rm Schedule_20201215*
+  568  rm Schedule_20201214*
+  569  rm Schedule_20201213*
+  570  rm Schedule_20201212*
+  571  rm Schedule_20201211*
+  572  ls | wc -l
+  573  numberize Schedule_2020121*
+  574  ffmpeg -i f_%04d.jpg video.mp4
+  575  ffplay video.mp4 
+  576  cp video.mp4 /media/freebox/Maxtor/maxtor/tmp
+  577  ls
+  578  rm f_*.jpg
+  579  numberize Schedule_2020121*
+  580  rm f_*.jpg
+  581  numberize Schedule_2020121*
+  582  ffmpeg -i f_%04d.jpg video.mp4
+  583  cp video.mp4 /media/freebox/Maxtor/maxtor/tmp/video1.mp4
+  584  rm Schedule_20201216-*
+  585  rm f_*.jpg
+  586  numberize Schedule_20201217-*
+  587  ffmpeg -i f_%04d.jpg video.mp4
+  588  cp video.mp4 /media/freebox/Maxtor/maxtor/tmp/video4.mp4
+  589  ls
+  590  date
+  591  rm f_*.jpg
+  592  numberize Schedule_20201218-*
+  593  ffmpeg -i f_%04d.jpg video.mp4
+  594  ffplay video.mp4 
+  595  ifconfig
+  596  h
+  597  cd /media
+  598  ls
+  599  cd MPC/
+  600  ls
+  601  mount
+  602  
+  603  mount
+  604  sudo vi /etc/fstab
+  605  sudo mount -t ext4 /dev/sdb /media/MPC
+  606  sudo tail /etc/fstab
+  607  ls
+  608  touch toto
+  609  sudo touch toto
+  610  ll
+  611  cd  /media/MPC/data/ftp/FTP/SmartCam_HD_Outdoor_C4D6553E360E/snap
+  612  ls /media/MPC/
+  613  ls
+  614  mkdir 1225
+  615  mv Schedule_20201225* 1225
+  616  mkdir 1226 1227 1228 1229 1230 1231
+  617  mv Schedule_20201230* 1230
+  618  mv Schedule_20201231* 1230
+  619  mv Schedule_20201229* 1229
+  620  mv Schedule_20201228* 1228
+  621  mv Schedule_20201227* 1227
+  622  mv Schedule_20201224-* 1224
+  623  mkdir 1224
+  624  mv Schedule_20201224-* 1224
+  625  cd 1224
+  626  spy
+  627  numberize  S*
+  628  ffmpeg -i f_%04d.jpg video.mp4
+  629  mv video.mp4 /media/freebox/Maxtor/maxtor/tmp
+  630  firefox &
+  631  chromium&
+  632  ls
+  633  cd ..
+  634  ls
+  635  numberize Schedule_2021*
+  636  ffmpeg -i f_%04d.jpg video.mp4
+  637  mv video.mp4 /media/freebox/Maxtor/maxtor/tmp/
+  638  df -h
+  639  pushd ~
+  640  ls
+  641  cd dev
+  642  ls
+  643  mkdir change
+  644  cd change
+  645  df -h
+  646* 
+  647  h
+  648  h > hist.txt
