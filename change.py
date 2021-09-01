@@ -7,7 +7,20 @@ import matplotlib.pyplot as plt
 import tqdm
 import logging
 
-folder = '/media/MPC/data/ftp/FTP/novodia/SmartCam_HD_Outdoor_C4D6553E360E/snap'
+
+
+"""
+https://smartcamhd.com/download/Manuals/SmartCam_HD-Outdoor_Manuel.pdf
+
+http://192.168.0.114:88/
+louis
+see gmail
+
+ps -ef | grep ftp
+more /etc/vsftpd.conf
+
+"""
+folder = '/media/seagate/data/ftp/FTP/novodia/SmartCam_HD_Outdoor_C4D6553E360E/snap'
 files = glob.glob(folder + '/*.jpg')
 K=10
 kernel = np.ones((K,K),np.float32)/K/K
@@ -75,4 +88,5 @@ d = list(map(diff, tqdm.tqdm(ps)))
 dd = [ files[i+1] for i, e in enumerate(d) if e > 50]
 print(dd)
 plt.plot(d); plt.show()
+
 
